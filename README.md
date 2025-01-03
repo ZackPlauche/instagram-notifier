@@ -40,7 +40,15 @@ NOTIFICATION_EMAIL=your_notification_email
 
 If you don't have a gmail app password, you can create one here: https://myaccount.google.com/apppasswords
 
-3. Run the script:
+3. Install the Playwright browser:
+
+Run the following command to install the Playwright browser:
+
+```
+playwright install
+```
+
+4. Run the script:
 
 ```
 python main.py
