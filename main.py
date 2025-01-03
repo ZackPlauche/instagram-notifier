@@ -2,13 +2,12 @@ import json
 import os
 import smtplib
 import time
-from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+import schedule
 from dotenv import load_dotenv
 from loguru import logger
-import schedule
 from playwright.sync_api import sync_playwright
 
 # Load environment variables
